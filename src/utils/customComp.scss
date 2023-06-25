@@ -1,0 +1,107 @@
+.signup_psw_input,
+.update_psw_input {
+  input {
+    padding-right: 40px;
+  }
+  input.is-invalid {
+    padding-right: 60px !important;
+  }
+  i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 10px;
+  }
+  .eye_before_error {
+    right: 1%;
+  }
+  .signup-eye-img {
+    position: absolute;
+    top: 6px;
+    right: 8px;
+  }
+  .signup-eye-imgerr {
+    position: absolute;
+    top: 6px;
+    right: 32px;
+  }
+}
+.form-control:focus {
+  color: var(--label-text);
+  background-color: var(--input-background);
+  /* border-color: #ff8880; */
+  outline: 0;
+  box-shadow: none;
+}
+.label-text {
+  color: var(--text-primary);
+}
+.form-control {
+  color: var(--input-text);
+  background-color: var(--input-background);
+  border-color: var(--input-border);
+}
+.form-horizontal .form-control {
+  color: var(--label-text);
+  background-color: var(--input-background);
+  border-color: var(--input-border);
+}
+
+.password-field .form-group {
+  margin-bottom: 0;
+}
+
+.form-horizontal label {
+  color: var(--label-text);
+}
+.form-check-input {
+  background-color: var(--input-background);
+}
+.form-horizontal .form-check-input {
+  background-color: var(--input-background);
+}
+.signup_psw_input {
+  .eye_after_error {
+    right: 4.5%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .signup_psw_input {
+    .eye_after_error {
+      right: 5%;
+    }
+  }
+}
+@media only screen and (max-width: 550px) {
+  .signup_psw_input {
+    .eye_after_error {
+      right: 6%;
+    }
+  }
+}
+@media only screen and (max-width: 430px) {
+  .signup_psw_input {
+    .eye_after_error {
+      right: 8%;
+    }
+  }
+}
+
+.update_psw_input {
+  .eye_after_error {
+    right: 6%;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .update_psw_input {
+    .eye_after_error {
+      right: 8%;
+    }
+  }
+}
+
+.nameInput {
+  color: var(--text-primary);
+  font-weight: 500;
+}

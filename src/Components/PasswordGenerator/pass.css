@@ -1,0 +1,15 @@
+.passwordform{
+
+}
+.passwordcontainer{
+    background: #0aea0a7a;
+    position: relative;
+    border-radius: 10px;
+    border: 2px dotted green;
+}
+.cpybtb{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: white;
+}
